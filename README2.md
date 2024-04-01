@@ -2,3 +2,4 @@ Nesse projeto contém o trabalho de uma universidade com o departamento(Atributo
 Nesse curso ele possui uma disciplina(ID_disciplina e area) que nela deve conter uma turma(atributos: Semestre* e Notas) e nela tem essa classe pessoa que é tanto o professor(atributos: nome_aluno, e-mail, CPF* e salário) quanto o aluno (atributos: nome_aluno, e-mail, CPF e RA*). 
 E essa entidade pessoa trabalha nesse projeto de extensão que deve ser financiada por uma empresa(atributos: Nome_empresa,CNPJ,endereço, email*)
 Atualizando agora criei uma entidade nova que é bancada daquela empresa que pode contratar a pessoa sendo ela ou não o aluno ou professor, aém disso consertei algumas cardinalidades e criei a possibilidade de ter o trancamento de um aluno daquela cadeira e reitrei entidades que não faziam sentido
+Atualizado tem a entidade trancado, já que agora ela virou apenas um atributo da entidade Aluno, e troquei a chave primária de curso para nome
