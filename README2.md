@@ -3,3 +3,4 @@ Nesse curso ele possui uma disciplina(ID_disciplina e area) que nela deve conter
 E essa entidade pessoa trabalha nesse projeto de extensão que deve ser financiada por uma empresa(atributos: Nome_empresa,CNPJ,endereço, email*)
 Atualizando agora criei uma entidade nova que é bancada daquela empresa que pode contratar a pessoa sendo ela ou não o aluno ou professor, aém disso consertei algumas cardinalidades e criei a possibilidade de ter o trancamento de um aluno daquela cadeira e reitrei entidades que não faziam sentido
 Atualizado tem a entidade trancado, já que agora ela virou apenas um atributo da entidade Aluno, e troquei a chave primária de curso para nome
+Atualizado com uma entidade relacional semestre, junto com a correção das cardinalidades mínimas para 0 e adição do atributo nota em disciplina
